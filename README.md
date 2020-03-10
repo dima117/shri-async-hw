@@ -43,3 +43,16 @@
 ### Вариант 10
 
 **Задание:** реализовать операцию `filter` для асинхронного массива
+
+## Бонусное задание
+
+Реализовать в отдельном файле собственную версию методов:
+- [Promise.any](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/any)
+- [Promise.allSettled](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
+- [Promise.prototype.finally](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally)
+
+```
+Promise._any = // реализация
+Promise._allSettled = // реализация
+Promise.prototype._finally = // реализация
+```
